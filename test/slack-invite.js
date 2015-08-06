@@ -8,7 +8,7 @@ describe('slack-invite', () => {
 
     before(() => {
       opts = {
-        channel: 'mychannel',
+        channels: ['mychannel'],
         email: 'user@example.com',
         org: 'myorg',
         token: 'mytoken'
